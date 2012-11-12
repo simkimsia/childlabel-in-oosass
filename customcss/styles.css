@@ -1,0 +1,9 @@
+.polkadots {
+	background-color:#DCDDDE;
+	background-image: radial-gradient(white 10%, transparent 11%),
+	radial-gradient(white 10%, transparent 11%);
+	background-image: -webkit-radial-gradient(white 10%, transparent 11%),
+	-webkit-radial-gradient(white 10%, transparent 11%);
+	background-size:40px 40px;
+	background-position: 0 0, 20px 20px;
+}
