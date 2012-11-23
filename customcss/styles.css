@@ -7,3 +7,19 @@
 	background-size:40px 40px;
 	background-position: 0 0, 20px 20px;
 }
+.banner {
+	background-image: url(../img/childlabelbanner.png);
+	width: 1034px;
+	height: 298px;
+	position: relative;
+	left: -64px;
+}
+#menu a i { visibility: hidden; }
+#menu a {
+  position: absolute;
+  height: 38px;
+  width: 88px;
+  top: 31px; 
+  text-decoration: none;
+}
+a#icon{ top: 90px; left:120px; height:180px; width: 180px;}
