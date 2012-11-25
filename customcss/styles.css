@@ -27,8 +27,22 @@
 	height: 58px;
   	width: 108px;
 }
+#menu a.socialmedia {
+	top: 130px; 
+	height: 78px;
+  	width: 75px;
+}
+#menu a.topright {
+	top: 20px; 
+	height: 78px;
+  	width: 90px;
+}
 a#icon{ top: 90px; left:120px; height:180px; width: 180px;}
 a#shop-link{ left:350px; }
 a#about-link{ left:510px; }
 a#faqs-link{ left:660px; }
 a#call-link{ left:820px; }
+a#twitter { left: 945px; }
+a#facebook { left: 865px; }
+a#cart {left: 900px;}
+a#account {left:810px;}
