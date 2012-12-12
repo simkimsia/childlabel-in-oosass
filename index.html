@@ -54,9 +54,8 @@
                         </div>
                     </div>
                 </div>
-                
             </div>
-            <div id="shop-dropdown" class="cg">
+            <div id="shop-dropdown" class="cg hidden">
                 <div id="shop-dropdown-wrapper">
                     <div class="size1of3 unit">
                         <div class="shop-dropdown-title">Child Label Packs (Stickers)</div>
@@ -97,6 +96,16 @@
             </div>
         </div>
 
-        
+        <script type="text/javascript" src="js/jquery/1.8.1/jquery.min.js"></script>  
+
+        <script type="text/javascript">
+            $(document).ready(function (){
+                $('#shop-link').click(function(e){
+                    
+                    $('#shop-dropdown').toggleClass("hidden");
+                    e.preventDefault();
+                });
+            });
+        </script>      
     </body>
 </html>
