@@ -53,12 +53,28 @@ a#account {left:810px;}
 	background-color: rgba(255, 255, 255, 0.9);
 	height: 100px;
 	width: 700px;
-	position: relative;
-	left: 245px;
+	position: absolute;
+	left: 575px;
 	padding-top: 50px;
 	padding-left: 50px;
 	padding-bottom: 60px;
+	z-index: 100;
+}
 
+#rotating-banner{
+	background-color: rgba(255, 255, 255, 0.9);
+	height: 500px;
+	width: 960px;
+	position: relative;
+	margin-top: 10px;
+	padding: 10px;
+}
+
+.banner-pic {
+	width: 752px;
+	height: 420px;
+	background:url('../img/rotatingbannerimg1.png') no-repeat;
+	/*background:url("/img/rotatingbannerimg1.png") no-repeat center;*/
 }
 
 .shop-dropdown-title {
