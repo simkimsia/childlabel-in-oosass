@@ -91,8 +91,34 @@ a#account {left:810px;}
 	position: relative;
 	left: -10px;
 }
+#bottom-text-wrapper {
+	font-size: 15px;
+}
+
+.bottom-text-column-margin {
+	margin-right: 15px;
+}
+.bottom-text-title {
+	color: red;
+	font-weight: bold;
+	clear: both;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.bottom-text-content {
+	margin-bottom: 20px;
+}
+
 
 /*** common styles ***/
 .hidden {
 	display: none;
+}
+
+.red {
+	color: red;
+}
+
+.bold {
+	font-weight: bold;
 }
