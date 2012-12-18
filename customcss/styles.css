@@ -63,18 +63,52 @@ a#account {left:810px;}
 
 #rotating-banner{
 	background-color: rgba(255, 255, 255, 0.9);
-	height: 500px;
-	width: 960px;
+	height: 375px;
+	width: 940px;
 	position: relative;
 	margin-top: 10px;
 	padding: 10px;
 }
+#rotating-groups{
+	display: block;
+	
+	position: relative;	
+	margin-top: 20px;
+}
+
+#rotating-groups-wrapper{
+	display: block;
+	height: 300px;
+	width: 1000px;
+	position: relative;	
+	left: -15px;
+
+}
 
 .banner-pic {
-	width: 752px;
-	height: 420px;
-	background:url('../img/rotatingbannerimg1.png') no-repeat;
+	width: 684px;
+	height: 375px;
+	background:url('../img/rotatingbanner1.png') no-repeat;
 	/*background:url("/img/rotatingbannerimg1.png") no-repeat center;*/
+}
+
+.first-rotating-group {
+	float: left;
+	width: 325px;
+	height: 283px;
+	background:url('../img/vroom.png?1') no-repeat;
+}
+
+.second-rotating-group {
+	width: 325px;
+	height: 283px;
+	background:url('../img/vroom.png?2') no-repeat;
+}
+
+.third-rotating-group {
+	width: 325px;
+	height: 283px;
+	background:url('../img/vroom.png?3') no-repeat;
 }
 
 .shop-dropdown-title {
